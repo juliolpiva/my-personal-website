@@ -60,14 +60,14 @@ const Footer = styled.footer`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={5}>
+    <Parallax pages={2}>
       <Hero>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm JulioLP.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I'm the web developer who will create your next generation web platform!</Subtitle>
       </Hero>
-      <Projects>
+      {/* <Projects>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
@@ -99,8 +99,8 @@ const Index = () => (
             A fantasy image manipulation relocating the habitat of wild animals.
           </ProjectCard>
         </ProjectsWrapper>
-      </Projects>
-      <About>
+      </Projects> */}
+      {/* <About>
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
@@ -116,18 +116,18 @@ const Index = () => (
           want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
           right?
         </AboutDesc>
-      </About>
+      </About> */}
       <Contact>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:juliolpiva@hotmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://www.linkedin.com/in/juliolpiva/">Linkedin</a> &{' '}
+            <a href="https://github.com/juliolpiva">Github</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
+          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
           <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
           <a href="https://www.lekoarts.de">LekoArts</a>.
         </Footer>
